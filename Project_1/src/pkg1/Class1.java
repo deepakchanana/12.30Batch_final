@@ -12,6 +12,7 @@ public class Class1
 {
   public static void main(String[] args) 
   {
+	  System.out.println("changes");
 	System.out.println("I have done the changes in this file");
 	System.setProperty("webdriver.chrome.driver", "C:/Users/Dell/Desktop/chromedriver.exe");
 	ChromeDriver driver=new ChromeDriver();
